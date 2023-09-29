@@ -7,8 +7,8 @@ const Home = () => {
 
     return (
         <main>
-            <button type="button" onClick={openSidebar} className="toggle-menu"><FaBars /></button>
-            <button type="button" onClick={openModal} className="toggle-modal">Show Modal</button>
+            <button type="button" onClick={openSidebar} className="sidebar-toggle"><FaBars /></button>
+            <button type="button" onClick={openModal} className="btn">Show Modal</button>
         </main>
     )
 }
